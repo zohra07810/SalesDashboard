@@ -11,7 +11,7 @@ st.set_page_config(page_title="Twin A Furniture", layout="wide")
 col1, col2 = st.columns([1, 5])  # Create two columns for logo and title
 with col1:
     # Replace 'logo.png' with the actual file path or URL of your logo image
-    logo = Image.open("SalesDashboard/pythonDash/twin.jpg")  # Adjust the path to your logo file
+    logo = Image.open("pythonDash/twin.jpg")  # Adjust the path to your logo file
     st.image(logo, width=150)  # Adjust logo size (resize to 150px width)
 with col2:
     st.title("Twin A Furniture")
