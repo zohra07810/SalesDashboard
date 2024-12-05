@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from PIL import Image  # To handle image
-import requests
-from io import BytesIO
 
 
 # Set the title of the app and customize the page layout
@@ -13,9 +11,7 @@ st.set_page_config(page_title="Twin A Furniture", layout="wide")
 col1, col2 = st.columns([1, 5])  # Create two columns for logo and title
 with col1:
     # Replace 'logo.png' with the actual file path or URL of your logo image
-    url = "https://github.com/zohra07810/SalesDashboard/blob/main/pythonDash/twin.jpg"
-    response = requests.get(url)
-    logo = Image.open(BytesIO(response.content))
+    logo = Image.open("twin.jpg")  # Adjust the path to your logo file
     st.image(logo, width=150)  # Adjust logo size (resize to 150px width)
 with col2:
     st.title("Twin A Furniture")
