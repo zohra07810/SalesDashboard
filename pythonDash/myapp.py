@@ -25,7 +25,7 @@ with col2:
 # Display images below the description
 st.subheader("Gallery")
 col3, col4, col5, col6, col7, col8 = st.columns(6)  # Create three columns for pictures
-image_size = (130, 130)  # Set a fixed width and height for the images
+image_size = (150, 150)  # Set a fixed width and height for the images
 
 with col3:
     # Replace 'furniture1.jpg' with the actual file path or URL of your first image
