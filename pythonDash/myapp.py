@@ -2,6 +2,16 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from PIL import Image  # To handle image
+import qrcode
+
+# Your app's URL (replace this with your actual deployed Streamlit app URL)
+app_url = "https://salesdashboard-dtzgr5dkmp8umctvwxxpfe.streamlit.app/"
+
+# Generate the QR code
+qr = qrcode.make(app_url)
+
+# Display the QR code in Streamlit
+st.image(qr)
 
 
 # Set the title of the app and customize the page layout
