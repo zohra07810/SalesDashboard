@@ -28,32 +28,32 @@ image_size = (130, 130)  # Set a fixed width and height for the images
 
 with col3:
     # Replace 'furniture1.jpg' with the actual file path or URL of your first image
-    furniture1 = Image.open("doors.jpg")  # Adjust the path to your image
+    furniture1 = Image.open("pythonDash/doors.jpg")  # Adjust the path to your image
     furniture1_resized = furniture1.resize(image_size)  # Resize the image
     st.image(furniture1_resized, caption="", use_container_width=True)
 with col4:
     # Replace 'furniture2.jpg' with the actual file path or URL of your second image
-    furniture2 = Image.open("set.jpg")  # Adjust the path to your image
+    furniture2 = Image.open("pythonDash/set.jpg")  # Adjust the path to your image
     furniture2_resized = furniture2.resize(image_size)  # Resize the image
     st.image(furniture2_resized, caption="", use_container_width=True)
 with col5:
     # Replace 'furniture3.jpg' with the actual file path or URL of your third image
-    furniture3 = Image.open("twinShop.jpg")  # Adjust the path to your image
+    furniture3 = Image.open("pythonDash/twinShop.jpg")  # Adjust the path to your image
     furniture3_resized = furniture3.resize(image_size)  # Resize the image
     st.image(furniture3_resized, caption="", use_container_width=True)
 with col6:
     # Replace 'furniture3.jpg' with the actual file path or URL of your third image
-    furniture4 = Image.open("tablewood.jpg")  # Adjust the path to your image
+    furniture4 = Image.open("pythonDash/tablewood.jpg")  # Adjust the path to your image
     furniture4_resized = furniture4.resize(image_size)  # Resize the image
     st.image(furniture4_resized, caption="", use_container_width=True)
 with col7:
     # Replace 'furniture3.jpg' with the actual file path or URL of your third image
-    furniture5 = Image.open("stairs.jpg")  # Adjust the path to your image
+    furniture5 = Image.open("pythonDash/stairs.jpg")  # Adjust the path to your image
     furniture5_resized = furniture5.resize(image_size)  # Resize the image
     st.image(furniture5_resized, caption="", use_container_width=True)
 with col8:
     # Replace 'furniture3.jpg' with the actual file path or URL of your third image
-    furniture6 = Image.open("cabinet.jpg")  # Adjust the path to your image
+    furniture6 = Image.open("pythonDash/cabinet.jpg")  # Adjust the path to your image
     furniture6_resized = furniture6.resize(image_size)  # Resize the image
     st.image(furniture6_resized, caption="", use_container_width=True)
 
