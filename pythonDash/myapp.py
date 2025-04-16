@@ -25,27 +25,27 @@ col3, col4, col5, col6, col7, col8 = st.columns(6)
 image_size = (130, 130) 
 
 with col3:
-    furniture1 = Image.open("doors.jpg")  
+    furniture1 = Image.open("pythonDash/doors.jpg")  
     furniture1_resized = furniture1.resize(image_size)  
     st.image(furniture1_resized, caption="", use_container_width=True)
 with col4:
-    furniture2 = Image.open("set.jpg")  
+    furniture2 = Image.open("pythonDash/set.jpg")  
     furniture2_resized = furniture2.resize(image_size) 
     st.image(furniture2_resized, caption="", use_container_width=True)
 with col5: 
-    furniture3 = Image.open("twinShop.jpg")  
+    furniture3 = Image.open("pythonDash/twinShop.jpg")  
     furniture3_resized = furniture3.resize(image_size)  
     st.image(furniture3_resized, caption="", use_container_width=True)
 with col6:
-    furniture4 = Image.open("tablewood.jpg") 
+    furniture4 = Image.open("pythonDash/tablewood.jpg") 
     furniture4_resized = furniture4.resize(image_size) 
     st.image(furniture4_resized, caption="", use_container_width=True)
 with col7:
-    furniture5 = Image.open("stairs.jpg")  
+    furniture5 = Image.open("pythonDash/stairs.jpg")  
     furniture5_resized = furniture5.resize(image_size)  
     st.image(furniture5_resized, caption="", use_container_width=True)
 with col8:
-    furniture6 = Image.open("cabinet.jpg")  
+    furniture6 = Image.open("pythonDash/cabinet.jpg")  
     furniture6_resized = furniture6.resize(image_size)  
     st.image(furniture6_resized, caption="", use_container_width=True)
 
